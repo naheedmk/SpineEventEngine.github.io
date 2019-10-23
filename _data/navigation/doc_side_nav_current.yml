@@ -1,0 +1,109 @@
+concepts:
+  - page: Architecture Overview
+    url: /docs/current/concepts/
+  - page: Messaging
+    url: '#messaging'
+    sub_nav_id: messaging
+    sub_nav:
+      - page: Command
+        url: /docs/current/concepts/command.html
+      - page: Event
+        url: /docs/current/concepts/event.html
+      - page: Rejection
+        url: /docs/current/concepts/rejection.html
+      - page: Command Handler
+        url: /docs/current/concepts/command-handler.html
+      - page: Event Subscriber
+        url: /docs/current/concepts/event-subsriber.html
+      - page: Event Reactor
+        url: /docs/current/concepts/event-reactor.html
+  - page: Entities
+    url: '#entities'
+    sub_nav_id: entities
+    sub_nav:
+      - page: Identifier
+        url: /docs/current/concepts/identifier.html
+      - page: Aggregate
+        url: /docs/current/concepts/aggregate.html
+      - page: Process Manager
+        url: /docs/current/concepts/process-manager.html
+      - page: Projection
+        url: /docs/current/concepts/projection.html
+      - page: Repository
+        url: /docs/current/concepts/repository.html
+      - page: Snapshot
+        url: /docs/current/concepts/snapshot.html
+  - page: Architecture
+    url: '#architecture'
+    sub_nav_id: architecture
+    sub_nav:
+      - page: Bounded Context
+        url: /docs/current/concepts/bounded-context.html
+      - page: Command Bus
+        url: /docs/current/concepts/command-bus.html
+      - page: Command Store
+        url: /docs/current/concepts/command-store.html
+      - page: Command Service
+        url: /docs/current/concepts/command-service.html
+      - page: Event Bus
+        url: /docs/current/concepts/event-bus.html
+      - page: Event Store
+        url: /docs/current/concepts/event-store.html
+      - page: Integration Event
+        url: /docs/current/concepts/integration-event.html
+      - page: Aggregate Mirror
+        url: /docs/current/concepts/aggregate-mirror.html
+      - page: Stand
+        url: /docs/current/concepts/stand.html
+      - page: Query Service
+        url: /docs/current/concepts/query-service.html
+      - page: Subscription Service
+        url: /docs/current/concepts/subscription-service.html
+
+quickstart:
+  - page: Quick Start
+    url: /docs/current/quickstart/
+  - page: Java
+    url: /docs/current/quickstart/java.html
+  - page: JavaScript
+    url: /docs/current/quickstart/javascript.html
+  - page: C++
+    url: /docs/current/quickstart/cpp.html
+
+guides:
+  - page: Introduction
+    url: /docs/current/guides/
+  - page: Project Structure
+    url: /docs/current/guides/project-structure.html
+  - page: Naming Conventions
+    url: /docs/current/guides/naming-conventions.html
+  - page: Model Definition
+    url: /docs/current/guides/model-definition.html
+  - page: Validation User Guide
+    url: /docs/current/guides/validation-user-guide.html
+  - page: Defining Rejections
+    url: /docs/current/guides/creating-rejection-messages.html
+  - page: Defining Aggregate
+    url: /docs/current/guides/defining-aggregate.html
+  - page: Related Guides
+    url: '#related-guides'
+    sub_nav_id: related-guides
+    sub_nav:
+       - page: Protocol Buffers
+         url: https://developers.google.com/protocol-buffers/docs/overview
+       - page: gRPC
+         url: https://grpc.io/docs/guides/index.html
+
+tutorials:
+  - page: Overview
+    url: /docs/current/tutorials/
+  - page: Basic
+    url: '#basic-tutorials'
+    sub_nav_id: basic-tutorials
+    sub_nav:
+      - page: Java
+        url: /docs/current/tutorials/basic/java.html
+      - page: JavaScript
+        url: /docs/current/tutorials/basic/javascript.html
+      - page: C++
+        url: /docs/current/tutorials/basic/cpp.html

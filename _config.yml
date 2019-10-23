@@ -3,6 +3,8 @@ description: CQRS/ES framework for modern could applications
 
 baseurl:
 
+doc_version: current
+
 githuburl: https://github.com/SpineEventEngine/SpineEventEngine.github.io/
 
 twitter_username: SpineEngine
