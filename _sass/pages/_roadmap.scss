@@ -1,0 +1,77 @@
+$main-title-size: 36px;
+$second-title-size: 17px;
+$page-title-size: $second-title-size;
+
+.roadmap-content {
+  margin-top: 24px;
+  margin-bottom: 64px;
+
+  @media (max-width: $tablet) {
+    margin-top: 8px;
+    margin-bottom: 40px;
+  }
+
+  .page-title {
+    font-size: $page-title-size;
+    font-weight: 600;
+  }
+
+  .roadmap-row-container {
+    margin-top: 16px;
+    margin-bottom: 16px;
+
+    @media (max-width: $tablet) {
+      margin-top: 0;
+      margin-bottom: 24px;
+    }
+  }
+
+  .col-title {
+    padding-top: 32px;
+    margin-bottom: 12px;
+    font-size: $main-title-size;
+    font-weight: 100;
+
+    @media (max-width: $tablet) {
+      margin-bottom: 4px;
+      font-weight: 300;
+    }
+  }
+
+  .item-title {
+    padding-top: 16px;
+    margin: 0 0 8px;
+    font-size: $second-title-size;
+    font-weight: 600;
+
+    @media (max-width: $tablet) {
+      margin-bottom: 4px;
+    }
+  }
+
+  .roadmap-list {
+    max-width: 440px;
+  }
+
+  $follow-us-container-shadow: 0 2px 7px -2px rgba(12, 29, 47, .27);
+
+  .follow-us-container {
+    position: relative;
+    padding: 16px;
+    @include box-shadow($follow-us-container-shadow);
+
+    .follow-icon {
+      position: absolute;
+      color: #1da2f1;
+      font-size: 20px;
+      top: 19px;
+      left: 26px;
+    }
+
+    .follow-text {
+      display: inline-block;
+      padding-left: 48px;
+      margin-bottom: 0;
+    }
+  }
+}
